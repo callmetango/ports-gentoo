@@ -88,7 +88,8 @@ PATCHES=(
 	"${FILESDIR}"/nvidia-settings-390.144-no-gtk2.patch
 	"${FILESDIR}"/nvidia-settings-390.144-raw-ldflags.patch
 	"${FILESDIR}"/nvidia-390-aur-patches/001-nvidia-390xx-kernel-4.16+-memory-encryption.patch
-	"${FILESDIR}"/nvidia-390-aur-patches/002-nvidia-390xx-gcc-15.patch
+	"${FILESDIR}"/nvidia-390-aur-patches/002-nvidia-390xx-gcc-14.patch
+	"${FILESDIR}"/nvidia-390-aur-patches/002-nvidia-390xx-gcc-15.patch-fuzz-fixed.patch
 	"${FILESDIR}"/nvidia-390-aur-patches/003-nvidia-390xx-kernel-6.2.patch
 	"${FILESDIR}"/nvidia-390-aur-patches/004-nvidia-390xx-kernel-6.3.patch
 	"${FILESDIR}"/nvidia-390-aur-patches/005-nvidia-390xx-kernel-6.4.patch
@@ -102,6 +103,10 @@ PATCHES=(
 	"${FILESDIR}"/nvidia-390-aur-patches/013-nvidia-390xx-kernel-6.15.patch
 	"${FILESDIR}"/nvidia-390-aur-patches/014-nvidia-390xx-kernel-6.8-repotline.patch
 	"${FILESDIR}"/nvidia-390-aur-patches/015-nvidia-390xx-kernel-6.17.patch
+	"${FILESDIR}"/nvidia-390-aur-patches/016-nvidia-390xx-hardirq.patch
+	"${FILESDIR}"/nvidia-390-aur-patches/017-nvidia-390xx-kernel-6.19.patch
+	"${FILESDIR}"/nvidia-390-aur-patches/018-nvidia-390xx-fence-signal.patch
+	"${FILESDIR}"/nvidia-390-aur-patches/019-nvidia-390xx-screen-info.patch
 )
 
 pkg_setup() {

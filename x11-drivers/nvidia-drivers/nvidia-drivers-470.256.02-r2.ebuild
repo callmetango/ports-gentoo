@@ -86,11 +86,16 @@ PATCHES=(
 	"${FILESDIR}"/nvidia-settings-390.144-raw-ldflags.patch
 	"${FILESDIR}"/nvidia-470-aur-patches/001-nvidia-legacy470-iosys_map.patch
 	"${FILESDIR}"/nvidia-470-aur-patches/002-nvidia-legacy470-follow_pfn.patch
+	"${FILESDIR}"/nvidia-470-aur-patches/002.01-nvidia-legacy470-gcc14.patch
+	"${FILESDIR}"/nvidia-470-aur-patches/002.02-nvidia-470xx-fix-gcc-15.patch
 	"${FILESDIR}"/nvidia-470-aur-patches/003-nvidia-470xx-fix-linux-6.12.patch
 	"${FILESDIR}"/nvidia-470-aur-patches/004-nvidia-470xx-fix-linux-6.13.patch
 	"${FILESDIR}"/nvidia-470-aur-patches/005-nvidia-470xx-fix-linux-6.14.patch
 	"${FILESDIR}"/nvidia-470-aur-patches/006-nvidia-470xx-fix-linux-6.15.patch
 	"${FILESDIR}"/nvidia-470-aur-patches/007-nvidia-470xx-fix-linux-6.17.patch
+	"${FILESDIR}"/nvidia-470-aur-patches/008-nvidia-470xx-fix-linux-6.19-part1.patch
+	"${FILESDIR}"/nvidia-470-aur-patches/009-nvidia-470xx-fix-linux-6.19-part2.patch
+	"${FILESDIR}"/nvidia-470-aur-patches/010-nvidia-470xx-fix-linux-7.0.patch
 )
 
 pkg_setup() {
